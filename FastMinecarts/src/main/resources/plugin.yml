@@ -3,3 +3,13 @@ version: '1.0'
 main: com.example.fastminecarts.FastMinecartsPlugin
 api-version: '1.21'
 description: Allows minecarts to travel faster when ridden by a player.
+commands:
+  fastminecarts:
+    description: Modify the max speed of ridden minecarts.
+    usage: /fastminecarts <speed>
+    permission: fastminecarts.admin
+    aliases: [fmc]
+permissions:
+  fastminecarts.admin:
+    description: Allows you to change the fastminecarts max speed.
+    default: op
