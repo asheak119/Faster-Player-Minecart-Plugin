@@ -1,0 +1,4 @@
+# Set the max speed of minecarts when ridden by a player.
+# 0.4 is the default Minecraft speed (8 blocks per second).
+# 2.0 is 40 blocks per second.
+max-speed: 2.0

@@ -1,0 +1,5 @@
+name: FastMinecarts
+version: '1.0'
+main: com.example.fastminecarts.FastMinecartsPlugin
+api-version: '1.21'
+description: Allows minecarts to travel faster when ridden by a player.
